@@ -1,0 +1,165 @@
+@media screen and (max-width:991px) {
+
+     .head_btn{
+          display: none;
+     }
+
+     .navbar{
+          padding: 15px 0 !important;
+     }
+
+     .main_hed .navbar-toggler{
+          border: none;
+          outline: none;
+          box-shadow: none;
+          color: #fff;
+          font-size: 25px;
+     }
+
+     .nav-link{
+          padding: 0 !important;
+     }
+
+     .nav-item{
+          padding: 10px 0 !important;
+     }
+
+     .navbar-nav{
+          padding: 15px;
+     }
+
+     .navbar-nav li a{
+          display: flex;
+          justify-content: space-between;
+          font-weight: 500;
+     }
+
+     .nav-link i{
+          display: block;
+     }
+
+     .sub_menu{
+          position: static;
+          width: 100%;
+          border-radius: 0;
+          box-shadow: none;
+          background-color: transparent;
+     }
+
+     .main_nev .navbar-collapse{
+          position: absolute;
+          top: 100%;
+          background-color:#232324;
+          width: 100%;
+          z-index: 9999;
+     }
+
+     .nav-link .meg_ico{
+          display: none;
+     }
+
+     .ban_content h1{
+          font-size: 40px;
+          text-align: center;
+     }
+
+     .ban_content p{
+          text-align: center;
+          font-size: 18px;
+     }
+     .main_ben_btn{
+          display: flex;
+          justify-content: center;
+          margin: 30px 0;
+     }
+
+     .live_link a{
+          font-size: 16px;
+     }
+
+
+     .foot_link{
+          justify-content: center;
+     }
+
+     .foot_policy ul{
+          justify-content: center !important;
+     }
+
+     .artwork_prof{
+          display: none;
+     }
+
+     .prof_artwork img{
+          display: block;
+     }
+     .links li a{
+          font-size: 14px;
+     }
+
+    
+}
+
+
+@media screen and (max-width:575px) {
+     .foot_logo_img{
+          width: 50%;
+     }
+
+     .foot_single{
+          margin-bottom: 25px;
+     }
+
+     .links li a{
+          font-size: 12px;
+     }
+
+     .cubick_main,
+     .cubik_content{
+          text-align: center !important;
+     }
+
+     .cubik_time{
+          justify-content: center;
+     }
+
+     
+}
+@media screen and (min-width:575px) {
+     /* .cubick_main{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+     } */
+
+}
+
+@media screen and (min-width:991px) and (max-width:1200px) {
+     .prob_all{
+          height: 30px !important;
+          width: 30px !important;
+     }
+     .prob_all img{
+          height: 30px !important;
+          width: 30px !important;
+     }
+
+     .prob_all a{
+          font-size: 14px;
+     }
+
+     .live_icon{
+          height: 30px;
+          width: 30px;
+     }
+
+     .live_icon i{
+          font-size: 10px;
+     }
+
+     .prof_img img{
+          height: 40px;
+          width: 40px;
+     }
+}
+
